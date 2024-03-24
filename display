@@ -1,0 +1,14 @@
+void display()
+{
+    if(top==-1)
+    {
+        printf("Stack Empty or Underflow\n");
+        return;
+    }
+    printf("Elements of Stack are \n");
+    for(int i=0;i<top;i++)
+    {
+        printf("%d\t",stk[i]);
+    }
+    printf("\n");
+}
